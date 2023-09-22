@@ -5,11 +5,11 @@ import { Chip } from "@mui/material";
 const Card = ({ data, type }) => {
   switch (type) {
     case "album":
-      const { image, follows, title, song } = data;
+      const { image, follows, title } = data;
       return (
         <div className={styles.wrapper}>
           <div className={styles.card}>
-            <img src={image} alt="cardimage" />
+            <img src={image} style={{ width: "100%" }} alt="cardimage" />
 
             <div className={styles.banner}>
               <Chip
