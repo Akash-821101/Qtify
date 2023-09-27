@@ -26,6 +26,17 @@
         color: var(--color-white);
     }
 
+    .pill {
+        background-color: var(--color-black);
+        color: var(--color-white);
+        border-radius: 10px;
+        padding: 4px 8px 4px 8px;
+       text-align: center;
+       
+
+
+    }
+
 }
 
 

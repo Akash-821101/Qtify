@@ -27,3 +27,40 @@ body {
     overflow-x: hidden;
 
 }
+
+.swiper-slide {
+    width: auto !important;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+    display: block;
+    max-width: 100%;
+}
+
+input,
+button,
+textarea,
+select {
+    font: inherit;
+}
+
+p1,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    overflow-wrap: break-word;
+}
+
+#root,
+#_next {
+    isolation: isolate;
+}
+
+
