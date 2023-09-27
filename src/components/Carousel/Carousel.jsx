@@ -12,6 +12,7 @@ const Carousel = ({ data, componentRender }) => {
 
     useEffect(() => {
       swiper.slideTo(0, null);
+      // eslint-disable-next-line react-hooks/exhaustive-deps
     }, [data]);
     return <div></div>;
   };

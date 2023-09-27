@@ -57,6 +57,8 @@ function App() {
 
   useEffect(() => {
     generateSongsData(value)
+  
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   },[value])
 
   const generateAlbums = async () => {
